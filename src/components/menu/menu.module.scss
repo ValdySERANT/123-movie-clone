@@ -1,4 +1,55 @@
 .root {
     flex-grow: 1;
     flex-shrink: 1;
+    color: white;
+    background-color: #1e1e1e;
+    border: 0px solid black;
+    padding: 5% 0px 0px 5%;
+    text-align: start;
 }
+
+.logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 5%;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.listcategory {
+    border: 0px solid black;
+    border-top: 0px solid black;
+    padding-top: 1px;
+    text-align: start;
+    color: #777;
+}
+
+.hrUnderlineListCategory {
+    width: 100%;
+    color: #777;
+}
+
+.li1 {}
+
+.li2 {}
+
+.li3 {}
+
+.list {
+    list-style-type: none;
+    gap: 20px;
+}
+
+.title {
+    padding: 0%;
+    color: #777;
+}
+
+.hr {
+    color: #777;
+}
+
+.list {}

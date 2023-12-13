@@ -4,5 +4,5 @@ import { Container } from '../../../components/container/container';
 export default createBoard({
     name: 'Container',
     Board: () => <Container />,
-    isSnippet: true,
+    isSnippet: false,
 });

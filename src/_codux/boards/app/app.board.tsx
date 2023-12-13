@@ -12,4 +12,8 @@ export default createBoard({
         <Container />
         <Favorite />
     </div>,
+    environmentProps: {
+        windowWidth: 1024,
+        windowHeight: 768
+    }
 });

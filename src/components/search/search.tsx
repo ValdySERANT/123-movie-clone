@@ -1,9 +1,7 @@
 import classNames from 'classnames';
-import styles from './container.module.scss';
-import { Search } from '../search/search';
-import { Cards } from '../cards/cards';
+import styles from './search.module.scss';
 
-export interface ContainerProps {
+export interface SearchProps {
     className?: string;
 }
 
@@ -11,9 +9,9 @@ export interface ContainerProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const Container = ({ className }: ContainerProps) => {
+export const Search = ({ className }: SearchProps) => {
     return <div className={classNames(styles.root, className)}>
-        <Search />
-        <Cards />
+        <input className={styles.input} placeholder={'Search ...'} />
+        <button className={styles.button}>Search</button>
     </div>;
 };

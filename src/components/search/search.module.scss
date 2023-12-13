@@ -1,0 +1,45 @@
+.root {
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+}
+
+.input {
+    flex: 1;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-container {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.button {
+    background-color: #ff003f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -50px;
+    /* Adjust this value as needed */
+    z-index: 1;
+}
+
+.button:hover {
+    background-color: #d90036;
+}

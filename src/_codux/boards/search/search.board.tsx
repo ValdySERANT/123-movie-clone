@@ -1,3 +1,4 @@
+
 import { createBoard } from '@wixc3/react-board';
 import { Search } from '../../../components/search/search';
 

@@ -1,5 +1,7 @@
+// The file where the board is created
+
 import { createBoard } from '@wixc3/react-board';
-import { Card } from '../../../components/card/card';
+import Card from '../../../components/card/card'; // Ensure the path is correct
 
 export default createBoard({
     name: 'Card',

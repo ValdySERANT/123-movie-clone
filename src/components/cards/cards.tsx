@@ -15,7 +15,6 @@ export const Cards: React.FC<CardsProps> = ({ className }) => {
             <Card />
             <Card />
             <Card />
-            <Card />
             <Card /></div>
     );
 };
